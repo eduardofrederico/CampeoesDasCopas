@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E64999D52BCF64C60023DDF2 /* WorldCupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64999D42BCF64C60023DDF2 /* WorldCupTableViewCell.swift */; };
 		E64DBDE12BB393C00070011D /* Peru.png in Resources */ = {isa = PBXBuildFile; fileRef = E64DBDB02BB393BF0070011D /* Peru.png */; };
 		E64DBDE22BB393C00070011D /* Romênia.png in Resources */ = {isa = PBXBuildFile; fileRef = E64DBDB12BB393BF0070011D /* Romênia.png */; };
 		E64DBDE32BB393C00070011D /* França.png in Resources */ = {isa = PBXBuildFile; fileRef = E64DBDB22BB393BF0070011D /* França.png */; };
@@ -68,6 +69,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E64999D42BCF64C60023DDF2 /* WorldCupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupTableViewCell.swift; sourceTree = "<group>"; };
 		E64DBDB02BB393BF0070011D /* Peru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Peru.png; sourceTree = "<group>"; };
 		E64DBDB12BB393BF0070011D /* Romênia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Romênia.png"; sourceTree = "<group>"; };
 		E64DBDB22BB393BF0070011D /* França.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "França.png"; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 			children = (
 				E64DBE182BB396900070011D /* WinnersTableViewController.swift */,
 				E64DBE1A2BB397180070011D /* WorldCupViewController.swift */,
+				E64999D42BCF64C60023DDF2 /* WorldCupTableViewCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 				E64DBE192BB396900070011D /* WinnersTableViewController.swift in Sources */,
 				E6909CC62BB270C100570C35 /* AppDelegate.swift in Sources */,
 				E64DBE1E2BB398160070011D /* WorldCup.swift in Sources */,
+				E64999D52BCF64C60023DDF2 /* WorldCupTableViewCell.swift in Sources */,
 				E64DBE1B2BB397180070011D /* WorldCupViewController.swift in Sources */,
 				E6909CC82BB270C100570C35 /* SceneDelegate.swift in Sources */,
 			);
