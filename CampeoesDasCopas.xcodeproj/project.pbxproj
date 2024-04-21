@@ -66,6 +66,7 @@
 		E6909CD22BB270C200570C35 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E6909CD12BB270C200570C35 /* Base */; };
 		E6A23A0F2BC0BC7200C71C3F /* Alemanha Ocidental.png in Resources */ = {isa = PBXBuildFile; fileRef = E6A23A0E2BC0BC7100C71C3F /* Alemanha Ocidental.png */; };
 		E6A23A112BC0BD3400C71C3F /* Alemanha Oriental.png in Resources */ = {isa = PBXBuildFile; fileRef = E6A23A102BC0BD3400C71C3F /* Alemanha Oriental.png */; };
+		E6E5164A2BD59CDA00E9994B /* GamesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E516492BD59CDA00E9994B /* GamesTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -130,6 +131,7 @@
 		E6909CD32BB270C200570C35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6A23A0E2BC0BC7100C71C3F /* Alemanha Ocidental.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Alemanha Ocidental.png"; sourceTree = "<group>"; };
 		E6A23A102BC0BD3400C71C3F /* Alemanha Oriental.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Alemanha Oriental.png"; sourceTree = "<group>"; };
+		E6E516492BD59CDA00E9994B /* GamesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GamesTableViewCell.swift; path = CampeoesDasCopas/Views/GamesTableViewCell.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +205,7 @@
 		E64DBE152BB395CE0070011D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E6E516492BD59CDA00E9994B /* GamesTableViewCell.swift */,
 				E64DBE182BB396900070011D /* WinnersTableViewController.swift */,
 				E64DBE1A2BB397180070011D /* WorldCupViewController.swift */,
 				E64999D42BCF64C60023DDF2 /* WorldCupTableViewCell.swift */,
@@ -382,6 +385,7 @@
 				E64DBE192BB396900070011D /* WinnersTableViewController.swift in Sources */,
 				E6909CC62BB270C100570C35 /* AppDelegate.swift in Sources */,
 				E64DBE1E2BB398160070011D /* WorldCup.swift in Sources */,
+				E6E5164A2BD59CDA00E9994B /* GamesTableViewCell.swift in Sources */,
 				E64999D52BCF64C60023DDF2 /* WorldCupTableViewCell.swift in Sources */,
 				E64DBE1B2BB397180070011D /* WorldCupViewController.swift in Sources */,
 				E6909CC82BB270C100570C35 /* SceneDelegate.swift in Sources */,
